@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sneha Kumari | Portfolio</title>
+
+  <!-- ✅ Font Awesome without integrity -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <!-- Your custom styles -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<body>
+
+<!-- Sidebar Toggle Button (RIGHT corner now) -->
+<button class="sidebar-toggle" onclick="toggleSidebar()">☰</button>
+
+
+  <!-- Sidebar -->
+  <aside class="sidebar" id="sidebar">
+    <nav>
+      <ul>
+        <li><a href="#home" onclick="toggleSidebar()">Home</a></li>
+        <li><a href="#about" onclick="toggleSidebar()">About Me</a></li>
+        <li><a href="#projects" onclick="toggleSidebar()">Projects</a></li>
+        <li><a href="#resume" onclick="toggleSidebar()">Resume</a></li>
+        <li><a href="#contact" onclick="toggleSidebar()">Contact</a></li>
+        <li><a href="#blog" onclick="toggleSidebar()">Blog</a></li>
+      </ul>
+    </nav>
+  </aside>
+
+  <!-- Main Content -->
+  <main>
+    <section id="home">
+      <h2>Welcome</h2>
+      <h3>Hi, I'm Sneha Kumari — a passionate Python , ML and Web Developer dedicated to building smart and useful Python projects.</h3>
+    </section>
+
+<section id="about">
+  <h2>About Me</h2>
+<img src="images/your-photo.jpg" alt="Sneha Kumari" />
+
+  <h5>I’m a B.Tech Computer Science student specializing in Data Science. I’m passionate about Python, Machine Learning, and Deep Learning while building real-world projects. I love sharing my learning journey and projects on LinkedIn and GitHub. Passionate about innovation, I aim to solve real problems through data-driven solutions and continuous learning.
+
+
+  </h5>
+
+  <h3>Skills & Tools</h3>
+<div class="tools">
+  <div class="tool-item">
+    <i class="fab fa-python"></i>
+    <span>Python</span>
+  </div>
+  <div class="tool-item">
+    <i class="fas fa-brain"></i>
+    <span>AI/ML</span>
+  </div>
+  <div class="tool-item">
+    <i class="fas fa-database"></i>
+    <span>Database</span>
+  </div>
+  <div class="tool-item">
+    <i class="fab fa-github"></i>
+    <span>GitHub</span>
+  </div>
+  <div class="tool-item">
+    <i class="fab fa-react"></i>
+    <span>React</span>
+  </div>
+  <div class="tool-item">
+    <i class="fab fa-html5"></i>
+    <span>HTML</span>
+  </div>
+  <div class="tool-item">
+    <i class="fab fa-css3-alt"></i>
+    <span>CSS</span>
+  </div>
+  <div class="tool-item">
+    <i class="fab fa-js"></i>
+    <span>JavaScript</span>
+  </div>
+</div>
+<h3>Currently Learning</h3>
+<div class="learning-grid">
+
+  <div class="learning-card">
+    <img src="images/google-cloud.png" alt="Google Cloud Logo" />
+    <p>Enrolled in Google Cloud courses and hands-on labs</p>
+  </div>
+
+  <div class="learning-card">
+    <img src="images/aws.png" alt="AWS Logo" />
+    <p>Learning AWS Cloud, EC2, and deployment practices</p>
+  </div>
+
+  <div class="learning-card">
+    <img src="images/devops.png" alt="DevOps Icon" />
+    <p>Exploring DevOps concepts and automation tools</p>
+  </div>
+
+  <div class="learning-card">
+    <img src="images/microsoft-learn.png" alt="Microsoft Learn Logo" />
+    <p>Participating in Microsoft Learn training modules</p>
+  </div>
+
+</div>
+
+</section>
+
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="project">
+        <h3>AI Crop Disease Detection</h3>
+        <p>Detects crop diseases using a CNN model with a user-friendly web interface.</p>
+        <a href="https://github.com/Sneha-kumari27" target="_blank">View on GitHub</a>
+      </div>
+    </section>
+
+    <section id="resume">
+      <h2>Resume</h2>
+      <p><a href="resume.pdf" target="_blank">Click here to view or download my resume</a></p>
+    </section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <p>Email: <a href="mailto:sneha@example.com">sneha@example.com</a></p>
+  <p>GitHub: <a href="https://github.com/your-github" target="_blank">github.com/your-github</a></p>
+  <p>LinkedIn: <a href="https://linkedin.com/in/your-link" target="_blank">linkedin.com/in/your-link</a></p>
+
+  <div class="internship-message">
+    <p><strong>🚀 Open to Internships:</strong> If my skills match your needs, I’d love to contribute and grow through an internship. Feel free to reach out!</p>
+  </div>
+</section>
+
+
+    <section id="blog">
+      <h2>Blog</h2>
+      <p>Coming soon: I will be posting tutorials and case studies about projects and development!</p>
+    </section>
+  </main>
+
+  <script>
+    function toggleSidebar() {
+      document.getElementById("sidebar").classList.toggle("show");
+    }
+  </script>
+
+</body>
+</html>
